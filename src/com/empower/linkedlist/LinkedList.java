@@ -63,6 +63,7 @@ public class LinkedList {
 			prev = prev.next;
 			count++;
 		}
+		
 		if(pos == 0) {
 			Node curr = head;
 			head = head.next;
